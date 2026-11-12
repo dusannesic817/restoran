@@ -1,6 +1,6 @@
 <script setup>
 import { IconArrowUpRight } from "@tabler/icons-vue";
-const dishes = [
+/*const dishes = [
   {
     name: "Coq au Vin",
     description:
@@ -28,6 +28,36 @@ const dishes = [
       "Klasičan francuski desert od vanile sa hrskavom karamelizovanom koricom.",
     price: "890 RSD",
     image: "/images/dishes/food-1.webp",
+  },
+];*/
+const dishes = [
+  {
+    name: "Coq au Vin",
+    description:
+      "Tradicionalna francuska piletina sporo kuvana u crnom vinu sa aromatičnim povrćem.",
+    price: "2.490 RSD",
+    image: `${import.meta.env.BASE_URL}images/dishes/food-1.webp`,
+  },
+  {
+    name: "Boeuf Bourguignon",
+    description:
+      "Govedina pripremana u burgundskom vinu sa šampinjonima i svežim začinima.",
+    price: "3.190 RSD",
+    image: `${import.meta.env.BASE_URL}images/dishes/food-2.jpg`,
+  },
+  {
+    name: "Filet de Saumon",
+    description:
+      "Pažljivo pečen filet lososa uz kremasti sos od limuna i sezonsko povrće.",
+    price: "2.790 RSD",
+    image: `${import.meta.env.BASE_URL}images/dishes/food-2.jpg`,
+  },
+  {
+    name: "Crème Brûlée",
+    description:
+      "Klasičan francuski desert od vanile sa hrskavom karamelizovanom koricom.",
+    price: "890 RSD",
+    image: `${import.meta.env.BASE_URL}images/dishes/food-1.webp`,
   },
 ];
 </script>

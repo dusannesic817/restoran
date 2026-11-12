@@ -4,37 +4,37 @@ import { IconArrowUpRight } from "@tabler/icons-vue";
 
 const images = [
   {
-    src: "/images/gallery/tresjolie.webp",
+    src: `${import.meta.env.BASE_URL}images/gallery/tresjolie.webp`,
     alt: "Enterijer restorana",
     class: "md:col-span-2 md:row-span-2",
   },
   {
-    src: "/images/gallery/restaurant-5.jpg",
+    src: `${import.meta.env.BASE_URL}images/gallery/restaurant-5.jpg`,
     alt: "Specijalitet restorana",
     class: "",
   },
   {
-    src: "/images/gallery/restaurant-1.jpg",
+    src: `${import.meta.env.BASE_URL}images/gallery/restaurant-1.jpg`,
     alt: "Detalj enterijera",
     class: "",
   },
   {
-    src: "/images/gallery/restaurant-4.avif",
+    src: `${import.meta.env.BASE_URL}images/gallery/restaurant-4.avif`,
     alt: "Serviranje hrane",
     class: "md:col-span-2",
   },
   {
-    src: "/images/gallery/restaurant-3.jpg",
+    src: `${import.meta.env.BASE_URL}images/gallery/restaurant-3.jpg`,
     alt: "Jelo restorana",
     class: "",
   },
   {
-    src: "/images/gallery/restaurant-2.jpg",
+    src: `${import.meta.env.BASE_URL}images/gallery/restaurant-2.jpg`,
     alt: "Ambijent restorana",
     class: "",
   },
   {
-    src: "/images/gallery/restaurant-1.webp",
+    src: `${import.meta.env.BASE_URL}images/gallery/restaurant-1.webp`,
     alt: "Specijalitet kuće",
     class: "md:col-span-2",
   },
