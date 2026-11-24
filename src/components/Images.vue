@@ -1,42 +1,48 @@
 <script setup>
 import { ref } from "vue";
 import { IconArrowUpRight } from "@tabler/icons-vue";
-
 const images = [
   {
     src: `${import.meta.env.BASE_URL}images/gallery/tresjolie.webp`,
     alt: "Enterijer restorana",
-    class: "md:col-span-2 md:row-span-2",
+    class: "row-span-4 md:col-span-2 md:row-span-2",
+    position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-5.jpg`,
     alt: "Specijalitet restorana",
-    class: "",
+    class: "row-span-2 md:row-span-1",
+    position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-1.jpg`,
     alt: "Detalj enterijera",
-    class: "",
+    class: "row-span-4 md:row-span-1",
+    position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-4.avif`,
     alt: "Serviranje hrane",
-    class: "md:col-span-2",
+    class: "row-span-4 md:col-span-2 md:row-span-1",
+    position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-3.jpg`,
     alt: "Jelo restorana",
-    class: "",
+    class: "row-span-3 md:row-span-1",
+    position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-2.jpg`,
     alt: "Ambijent restorana",
-    class: "",
+    class: "row-span-4 md:row-span-1",
+    position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-1.webp`,
     alt: "Specijalitet kuće",
-    class: "md:col-span-2",
+    class: "row-span-3 md:col-span-2 md:row-span-1",
+    position: "object-center",
   },
 ];
 
@@ -50,7 +56,6 @@ const closeImage = () => {
   selectedImage.value = null;
 };
 </script>
-
 
 <template>
   <section id="galerija" class="scroll-mt-24 py-24">
@@ -79,13 +84,11 @@ const closeImage = () => {
             <span class="font-serif italic text-[#D4AF37]">atmosfera</span>
           </h2>
         </div>
-
-       
       </div>
 
       <!-- Gallery -->
       <div
-        class="grid auto-rows-[220px] grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4"
+        class="grid auto-rows-[75px] grid-flow-dense grid-cols-2 gap-3 sm:auto-rows-[100px] md:auto-rows-[220px] md:grid-cols-4 md:gap-4"
       >
         <button
           v-for="(image, index) in images"
@@ -100,6 +103,7 @@ const closeImage = () => {
           <img
             :src="image.src"
             :alt="image.alt"
+            :class="image.position"
             class="h-full w-full object-cover transition duration-700 ease-out group-hover:scale-105"
           />
 
