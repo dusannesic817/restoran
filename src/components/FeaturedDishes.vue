@@ -97,7 +97,7 @@ const dishes = [
 
         <RouterLink
           to="/meni"
-          class="group inline-flex shrink-0 items-center gap-2 text-sm font-semibold text-gray-900 transition-colors hover:text-[#B8951F]"
+          class="group inline-flex shrink-0 items-center gap-2 text-md md:text-sm font-semibold text-gray-900 transition-colors hover:text-gold underline"
         >
           Pogledaj ceo meni
 

@@ -84,7 +84,7 @@ import { IconArrowUpRight, IconChefHat, IconLeaf } from "@tabler/icons-vue";
         <!-- Link -->
         <RouterLink
           to="/o-nama"
-          class="group mt-9 inline-flex items-center gap-2 text-sm font-semibold text-gray-900 transition-colors hover:text-gold"
+          class="group mt-9 inline-flex items-center gap-2 text-md md:text-sm font-semibold text-gray-900 transition-colors hover:text-gold underline"
         >
           Rezervišite sto
 

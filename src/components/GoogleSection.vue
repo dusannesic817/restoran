@@ -112,7 +112,7 @@ import {
             href="https://www.google.com/maps/search/?api=1&query=Pariska+24+Beograd"
             target="_blank"
             rel="noopener noreferrer"
-            class="group mt-9 inline-flex items-center gap-2 text-sm font-semibold text-gray-900"
+            class="group mt-9 inline-flex items-center gap-2 text-sm font-semibold text-gray-900 underline transition-colors hover:text-gold"
           >
             Otvori u Google Maps
 
