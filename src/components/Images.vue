@@ -5,13 +5,13 @@ const images = [
   {
     src: `${import.meta.env.BASE_URL}images/gallery/tresjolie.webp`,
     alt: "Enterijer restorana",
-    class: "row-span-4 md:col-span-2 md:row-span-2",
+    class: "col-span-2 row-span-4 md:col-span-2 md:row-span-2",
     position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-5.jpg`,
     alt: "Specijalitet restorana",
-    class: "row-span-2 md:row-span-1",
+    class: "row-span-3 md:row-span-1",
     position: "object-center",
   },
   {
@@ -23,25 +23,25 @@ const images = [
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-4.avif`,
     alt: "Serviranje hrane",
-    class: "row-span-4 md:col-span-2 md:row-span-1",
+    class: "row-span-2 md:col-span-2 md:row-span-1",
     position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-3.jpg`,
     alt: "Jelo restorana",
-    class: "row-span-3 md:row-span-1",
+    class: "row-span-2 md:row-span-1",
     position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-2.jpg`,
     alt: "Ambijent restorana",
-    class: "row-span-4 md:row-span-1",
+    class: "row-span-3 md:row-span-1",
     position: "object-center",
   },
   {
     src: `${import.meta.env.BASE_URL}images/gallery/restaurant-1.webp`,
     alt: "Specijalitet kuće",
-    class: "row-span-3 md:col-span-2 md:row-span-1",
+    class: "row-span-2 md:col-span-2 md:row-span-1",
     position: "object-center",
   },
 ];
